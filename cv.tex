@@ -279,7 +279,80 @@ UK
 {\small Time Series Photometry of Pulsating White Dwarf Stars.}
 \end{entrylist}
 %----------------------------------------------------------------------------------------
+\pagebreak
+\section{Selected Software Projects}
+%------------------------------------------------
+
+\parbox[t]{12.8cm}{%
+    \textbf{OpenRA}%
+    \hfill%
+    {\small\color{lightgray} \faGithub~~\url{https://github.com/OpenRA/OpenRA/}}\\%
+    A cross-platform GPL3 real time strategy engine for building games in the style of the classic 2D/2.5D Command \& Conquer titles.  Community driven recreations of \italica{Command \& Conquer}, \italica{Red Alert}, and \italica{Dune 2000}~have a thriving online player base.
+    \vspace{\parsep}\\
+    Core Skills:
+    \begin{itemize}
+        \item Advanced C\# development (including LINQ, P/Invoke, reflection, codegen).
+        \item OpenGL development.
+        \item Gameplay and user interface design.
+        \item Project management.
+        \item Code review and mentoring.
+        \item Triaging user feedback and bug reports into actionable tasks.
+        \item Web development and maintenance.
+    \end{itemize}
+}
+
+%------------------------------------------------
+\parbox[t]{12.8cm}{%
+    \textbf{Warwick one-metre observatory software}%
+    \hfill%
+    {\footnotesize\color{lightgray} \faGithub~~\url{https://github.com/warwick-one-metre/}}\\%
+    A collection of microservices and utilities that make up the control systems for the Warwick one-metre telescope at the Roque de los Muchachos observatory on La Palma.  Low level daemons provide a standardized software interface (using Pyro remote procedure calls) to the hardware components, with higher level daemons implementing logic for weather monitoring and observatory operation.  Real time image analysis feeds back into the closed-loop telescope control system.
+    \vspace{\parsep}\\
+    Core Skills:
+    \begin{itemize}
+      \item Python development.
+      \item Designing fault tolerant systems.
+      \item Integrating software with complex hardware environments.
+      \item Designing and deploying microservices.
+      \item Real time data analysis.
+    \end{itemize}
+}
+
+%------------------------------------------------
+\parbox[t]{12.8cm}{%
+    \textbf{NGTS transient object detection pipeline}%
+    \hfill%
+    {\small\color{lightgray} \faGithub~~\url{https://github.com/pchote/ngtransients/}}\\%
+    A data driven image analysis pipeline for detecting transient events and variable stars in the \italica{Next Generation Transit Survey}.  Currently under development and targeting the archive of historical data, but is designed for future deployment to the telescope to run in real time and drive automatic alerts for followup by other facilities.
+    \vspace{\parsep}\\
+    Core Skills:
+    \begin{itemize}
+      \item Python development (including numpy and matplotlib).
+      \item Working with large data sets.
+      \item Performance sensitive software design and implementation.
+      \item Distributed computing (Sun/Oracle Grid Engine).
+    \end{itemize}
+}
+
+%------------------------------------------------
+\parbox[t]{12.8cm}{%
+    \textbf{Puoko-nui time-series photometer}%
+    \hfill{\small\color{lightgray} \parbox{6.4cm}{\faGithub~~\url{https://github.com/pchote/Puoko-nui/} \\ \faGithub~~\url{https://github.com/pchote/Karaka/}}}\\%
+    Instrument control software for the Puoko-nui astronomical photometer instrument.  Interfaces with a frame-transfer CCD camera and GPS receiver to enable high-speed image acquisition with precise absolute timing information for observing variable astronomical phenomena.
+    \vspace{\parsep}\\
+    Core Skills:
+    \begin{itemize}
+      \item C development.
+      \item Linux kernel driver development / maintenance.
+      \item Embedded C development (AVR microcontroller).
+      \item Designing real-time systems.
+      \item Integrating software with complex hardware environments.
+    \end{itemize}
+}\\
+
+{More projects with source code available at \url{https://github.com/pchote/}\vspace{5mm}}\\
+
+%----------------------------------------------------------------------------------------
 \section{References}
 {\small Available on request.}
-
 \end{document}
